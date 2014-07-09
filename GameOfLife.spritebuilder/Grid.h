@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
--v
-
 @interface Grid : CCSprite
 
 @property (nonatomic, assign) int totalAlive;
