@@ -63,6 +63,7 @@
 		99BD81B6196D0ACA00CA7CEA /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
 		99BD81BB196D0BBE00CA7CEA /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grid.h; path = Source/Grid.h; sourceTree = SOURCE_ROOT; };
 		99BD81BC196D0BBE00CA7CEA /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Grid.m; path = Source/Grid.m; sourceTree = SOURCE_ROOT; };
+		99BD81C5196DBA4400CA7CEA /* Creature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Creature.h; path = ../../Desktop/Creature/Creature.h; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -173,6 +174,7 @@
 			children = (
 				99BD81B5196D0ACA00CA7CEA /* Grid.h */,
 				99BD81B6196D0ACA00CA7CEA /* Grid.m */,
+				99BD81C5196DBA4400CA7CEA /* Creature.h */,
 				B737893C1807616C0076A88C /* Source */,
 				B77F1B4617B978D7009739AE /* Resources */,
 				9222E2B918734FF800A246C7 /* libs */,
