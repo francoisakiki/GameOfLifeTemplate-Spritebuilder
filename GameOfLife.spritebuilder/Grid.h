@@ -7,7 +7,7 @@
 //
 //
 
-#im port <UIKit/UIKit.h>
+#import <UIKit/UIKit.h>
 
 @interface Grid : CCSprite
 
