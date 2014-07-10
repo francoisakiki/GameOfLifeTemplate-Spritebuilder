@@ -6,11 +6,7 @@
 //  Copyright (c) 2014 Apportable. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface Grid : CCSprite
+#import "CCSprite.h"
 
 @property (nonatomic, assign) int totalAlive;
 @property (nonatomic, assign) int generation;
-
-@end
