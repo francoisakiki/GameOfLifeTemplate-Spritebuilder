@@ -29,10 +29,6 @@
     self.visible = _isAlive;
 }
 
-- (Creature *)creatureForTouchPosition:(CGPoint)touchPosition
-{
-    //get the row and column that was touched, return the Creature inside the corresponding cell
-}
 
 @end
 
