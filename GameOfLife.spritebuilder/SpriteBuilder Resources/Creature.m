@@ -29,8 +29,7 @@
     self.visible = _isAlive;
 }
 
-- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
 
 @end
-@end
+
 
