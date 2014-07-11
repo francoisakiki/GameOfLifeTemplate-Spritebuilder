@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
-		99BD81BD196D0BBE00CA7CEA /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BD81BC196D0BBE00CA7CEA /* Grid.m */; };
 		99BD81DD196F05BE00CA7CEA /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BD81DC196F05BE00CA7CEA /* Creature.m */; };
 		99BD81E6196F276C00CA7CEA /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BD81E5196F276C00CA7CEA /* Grid.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
@@ -60,8 +59,6 @@
 
 /* Begin PBXFileReference section */
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		99BD81BB196D0BBE00CA7CEA /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grid.h; path = Source/Grid.h; sourceTree = SOURCE_ROOT; };
-		99BD81BC196D0BBE00CA7CEA /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Grid.m; path = Source/Grid.m; sourceTree = SOURCE_ROOT; };
 		99BD81DB196F05BE00CA7CEA /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Creature.h; path = "SpriteBuilder Resources/Creature.h"; sourceTree = "<group>"; };
 		99BD81DC196F05BE00CA7CEA /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Creature.m; path = "SpriteBuilder Resources/Creature.m"; sourceTree = "<group>"; };
 		99BD81E4196F276C00CA7CEA /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grid.h; path = "SpriteBuilder Resources/Grid.h"; sourceTree = "<group>"; };
@@ -218,8 +215,6 @@
 			children = (
 				B73789911807667A0076A88C /* Icons */,
 				B737893A180761570076A88C /* Published-iOS */,
-				99BD81BB196D0BBE00CA7CEA /* Grid.h */,
-				99BD81BC196D0BBE00CA7CEA /* Grid.m */,
 			);
 			name = Resources;
 			path = Source/Resources;
@@ -355,7 +350,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99BD81BD196D0BBE00CA7CEA /* Grid.m in Sources */,
 				99BD81E6196F276C00CA7CEA /* Grid.m in Sources */,
 				99BD81DD196F05BE00CA7CEA /* Creature.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
