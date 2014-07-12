@@ -82,7 +82,7 @@ static const int GRID_COLUMNS = 10;
 }
 
 
-    (interface) Grid
+(int interface); Grid
 
 {
     [_grid evolveStep];
