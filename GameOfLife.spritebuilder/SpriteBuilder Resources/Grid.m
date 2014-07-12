@@ -82,6 +82,8 @@ static const int GRID_COLUMNS = 10;
 }
 
 {
+        (@interface) Grid
+    
     [_grid evolveStep];
     //update each Creature's neighbor count
     [self countNeighbors];
