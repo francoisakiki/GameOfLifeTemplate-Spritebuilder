@@ -42,6 +42,7 @@
 - (void)step
 {
   
+    @interface Grid
     
     [_grid evolveStep];
     _generationLabel.string = [NSString stringWithFormat:@"%d", _grid.generation];
