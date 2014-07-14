@@ -82,19 +82,4 @@ static const int GRID_COLUMNS = 10;
 }
 
 
-(int interface); Grid
-
-{
-    [_grid evolveStep];
-    //update each Creature's neighbor count
-    [self countNeighbors];
-    
-    //update each Creature's state
-    [self updateCreatures];
-    
-    //update the generation so the label's text will display the correct generation
-    _generation++;s
-
-}
-
 @end
