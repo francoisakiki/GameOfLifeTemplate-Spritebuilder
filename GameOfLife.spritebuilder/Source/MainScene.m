@@ -46,7 +46,7 @@
     _populationLabel.string = [NSString stringWithFormat:@"%d", _grid.totalAlive];
 }
 
-- (void)onEnter
+- (void)evolveStep
 
 {
     //update each Creature's neighbor count
