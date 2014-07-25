@@ -81,5 +81,15 @@ static const int GRID_COLUMNS = 10;
     //get the row and column that was touched, return the Creature inside the corresponding cell
 }
 
+- (id)evolveStep;
+
+//update each Creature's neighbor count
+[self countNeighbors];
+
+//update each Creature's state
+[self updateCreatures];
+
+//update the generation so the label's text will display the correct generation
+_generation++;
 
 @end
